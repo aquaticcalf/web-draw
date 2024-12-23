@@ -1,0 +1,24 @@
+.drawing-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    pointer-events: none;
+}
+
+.drawing-controls {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 10001;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+}
+
+.drawing-active {
+    pointer-events: all !important;
+    cursor: crosshair;
+}
